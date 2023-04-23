@@ -1,0 +1,24 @@
+{
+  "name": "aquicardapio",
+  "version": "1.0.0",
+  "description": "sistema de cardapio digital",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "start:dev": "tsx watch src/server.ts",
+    "build": "tsup src",
+    "test": "vitest"
+  },
+  "author": "Michel Silva",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "tsup": "^6.7.0",
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.4",
+    "vitest": "^0.30.1"
+  }
+}
